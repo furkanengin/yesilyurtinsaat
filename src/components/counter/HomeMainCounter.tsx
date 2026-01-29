@@ -5,14 +5,14 @@ const counter_data = [
   {
     id: 1,
     title: "Başarılı İnşaat ve\nOluşum",
-    count: 98,
+    count: 100,
     suffix: '%',
     dataDelay:".3"
   },
   {
     id: 2,
-    title: "3 Farklı Şehirde\nTamamlanmış Proje  ",
-    count: 125,
+    title: "Tamamlanan Daire  ",
+    count: 750,
     suffix: '+',
     dataDelay:".5"
   },

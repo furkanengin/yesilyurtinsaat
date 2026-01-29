@@ -39,12 +39,8 @@ const HomeMainHeader = () => {
                         </div>
                         <div className="col-xl-3 col-lg-6 col-6">
                             <div className="tp-header-right d-flex align-items-center justify-content-end">
-                                <div className="tp-header-lang d-none d-xl-flex">
-                                    <Link className="active" href="#">TR</Link>
-                                    <Link href="#">EN</Link>
-                                </div>
                                 <div className="tp-header-btn-box ml-25 d-none d-md-flex">
-                                    <Link href="/portfolio-col-2-light" className="tp-btn-black btn-red-bg">
+                                    <Link href="/yakinda" className="tp-btn-black btn-red-bg">
                                         <span className="tp-btn-black-filter-blur">
                                             <ButtonBlurFilter filterId="buttonFilter" />
                                         </span>

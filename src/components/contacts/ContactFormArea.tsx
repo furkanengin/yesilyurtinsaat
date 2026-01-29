@@ -4,7 +4,23 @@ import React from 'react';
 const ContactFormArea = () => {
     const handleSubmit = (e: React.FormEvent<HTMLFormElement>) => {
         e.preventDefault();
+
+        const form = e.currentTarget;
+
+        const name = (form.elements.namedItem('name') as HTMLInputElement).value;
+        const email = (form.elements.namedItem('email') as HTMLInputElement).value;
+        const subject = (form.elements.namedItem('subject') as HTMLInputElement).value;
+        const message = (form.elements.namedItem('message') as HTMLTextAreaElement).value;
+
+        const mailTo = `mailto:info@yesilyurtinsaat.com
+    ?subject=İletişim Formu - ${encodeURIComponent(name)}
+    &body=${encodeURIComponent(
+            `Ad Soyad: ${name}\nEmail: ${email}\nWebsite: ${subject}\n\nMesaj:\n${message}`
+        )}`;
+
+        window.location.href = mailTo;
     };
+
     return (
         <div className="tp-contact-form-ptb pb-140">
             <div className="container container-1230">
@@ -12,14 +28,13 @@ const ContactFormArea = () => {
                     <div className="col-lg-6">
                         <div className="tp-contact-form-heading tp_fade_anim mb-50">
                             <div className="ar-about-us-4-title-box d-flex align-items-center mb-15">
-                                <span className="tp-section-subtitle pre">Contact Us</span>
+                                <span className="tp-section-subtitle pre">İLETİŞİM FORMU</span>
                                 <div className="ar-about-us-4-icon">
                                     <ArrowTwenty />
                                 </div>
                             </div>
-                            <h3 className="tp-section-title lts">{`Let's`} make <br />
-                                your brand <br />
-                                brilliant!</h3>
+                            <h3 className="tp-section-title lts">Bize {`mesaj`} <br />
+                                gönderin!</h3>
                         </div>
                     </div>
                     <div className="col-lg-6">
@@ -28,33 +43,33 @@ const ContactFormArea = () => {
                                 <div className="row">
                                     <div className="col-lg-6">
                                         <div className="tp-contact-form-input mb-20">
-                                            <label>Full name*</label>
+                                            <label>Ad - Soyad*</label>
                                             <input name="name" type="text" />
                                         </div>
                                     </div>
                                     <div className="col-lg-6">
                                         <div className="tp-contact-form-input mb-20">
-                                            <label>Email address*</label>
+                                            <label>Email Adresiniz*</label>
                                             <input name="email" type="email" />
                                         </div>
                                     </div>
                                     <div className="col-lg-12">
                                         <div className="tp-contact-form-input mb-20">
-                                            <label>Website link</label>
+                                            <label>Website Adresiniz (Varsa)</label>
                                             <input name="subject" type="text" />
                                         </div>
                                     </div>
                                     <div className="col-lg-12">
                                         <div className="tp-contact-form-input mb-20">
-                                            <label>How Can We Help You*
+                                            <label>Size nasıl yardımcı olabiliriz?*
                                             </label>
                                             <textarea name="message"></textarea>
                                         </div>
                                         <div className="tp-contact-form-btn">
                                             <button className="w-100" type="submit">
                                                 <span>
-                                                    <span className="text-1">Send Message</span>
-                                                    <span className="text-2">Send Message</span>
+                                                    <span className="text-1">Gönder</span>
+                                                    <span className="text-2">Gönder</span>
                                                 </span>
                                             </button>
                                             <p className="ajax-response mt-5"></p>

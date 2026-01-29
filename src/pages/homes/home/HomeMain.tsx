@@ -18,10 +18,8 @@ import { useGSAP } from '@gsap/react';
 import React from 'react';
 
 const HomeMain = () => {
-    // Initialize custom cursor and optional background styles
     useCursorAndBackground()
 
-    // Enable smooth scroll animations
     useScrollSmooth();
 
     useGSAP(() => {
@@ -47,13 +45,11 @@ const HomeMain = () => {
                 <div id="ball"></div>
             </div>
 
-            {/* Global Components */}
             <BackToTop />
             <HomeMainHeader />
 
             <div id="smooth-wrapper">
                 <div id="smooth-content">
-                    {/* Main Content Sections */}
                     <main>
                         <HomeMainHero />
                         <HomeMainAbout />

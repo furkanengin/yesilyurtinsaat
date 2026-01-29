@@ -4,7 +4,7 @@ import { Metadata } from 'next';
 import Link from 'next/link';
 
 export const metadata: Metadata = {
-    title: "Agntix - 404 Not Found Page",
+    title: "Yeşilyurt İnşaat | Çok Yakında",
 };
 
 export default function NotFound() {
@@ -15,18 +15,37 @@ export default function NotFound() {
                     <div className="row">
                         <div className="col-xl-12">
                             <div className="tp-error-wrapper text-center">
-                                <h4 className="tp-error-title">Oops!</h4>
-                                <Image src={errorImg} alt="error" />
+
+                                <h4 className="tp-error-title">Çok Yakında!</h4>
+
+                                <Image src={errorImg} alt="Çok yakında" priority />
+
                                 <div className="tp-error-content">
-                                    <h4 className="tp-error-title-sm">Something went Wrong...</h4>
-                                    <p>Sorry, we {`couldn't`} find your page.</p>
-                                    <Link className="tp-btn" href="/">Back to Home</Link>
+                                    <h4 className="tp-error-title-sm">
+                                        Bu sayfamız hazırlanıyor...
+                                    </h4>
+
+                                    <p>
+                                        Yeşilyurt İnşaat’ın yenilenen dijital yüzü çok yakında yayında.
+                                        Bu süreçte bizimle iletişime geçebilirsiniz.
+                                    </p>
+
+                                    <div className="d-flex justify-content-center gap-3 flex-wrap">
+                                        <Link className="tp-btn" href="/">
+                                            Anasayfaya Dön
+                                        </Link>
+
+                                        <Link className="tp-btn tp-btn-black" href="/contact">
+                                            İletişime Geç
+                                        </Link>
+                                    </div>
                                 </div>
+
                             </div>
                         </div>
                     </div>
                 </div>
             </div>
         </main>
-    )
+    );
 }

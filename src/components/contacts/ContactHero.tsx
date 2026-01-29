@@ -19,14 +19,14 @@ const ContactHero = () => {
                     <div className="col-xl-12">
                         <div className="ar-hero-title-box tp_fade_anim" data-delay=".3">
                             <div className="ar-about-us-4-title-box d-flex align-items-center mb-20">
-                                <span className="tp-section-subtitle pre tp_fade_anim">Contact Us</span>
+                                <span className="tp-section-subtitle pre tp_fade_anim">Bİze Ulaşın</span>
                                 <div className="ar-about-us-4-icon">
                                     <ArrowTwenty />
                                 </div>
                             </div>
-                            <h3 className="tp-career-title fs-100 pb-30">Any questions? <br />
-                                simply ask us this is <br />
-                                you home!</h3>
+                            <h3 className="tp-career-title fs-100 pb-30">Sorularınız mı var? <br />
+                                Bize sorun, <br />
+                                burası sizin eviniz!</h3>
                         </div>
                     </div>
                 </div>
@@ -45,7 +45,7 @@ const ContactHero = () => {
                                         <Image src={shapeCircle} alt="shape circle" />
                                     </div>
                                     <div className="ar-about-funfact-top-content">
-                                        <h4>Get <br /> In Touch!</h4>
+                                        <h4>İLETİŞİME <br /> GEÇELİM!</h4>
                                     </div>
                                     <div className="ar-about-funfact-item-box mb-35">
                                         <div className="ar-about-funfact-item d-flex align-items-center">
@@ -53,8 +53,8 @@ const ContactHero = () => {
                                                 <span><PhoneIcon /></span>
                                             </div>
                                             <div className="ar-about-funfact-item-content">
-                                                <p> Call Us Directly</p>
-                                                <Link className="tp-line-white" href="tel:2246767430">+(1) 224 676 7430</Link>
+                                                <p>Direkt Arayın</p>
+                                                <Link className="tp-line-white" href="tel:+905308791775">+90 530 879 17 75</Link>
                                             </div>
                                         </div>
                                         <div className="ar-about-funfact-item d-flex align-items-center">
@@ -62,21 +62,10 @@ const ContactHero = () => {
                                                 <span><EmailIcon /></span>
                                             </div>
                                             <div className="ar-about-funfact-item-content">
-                                                <p>Need Support?</p>
-                                                <Link className="tp-line-white" href="mailto:agntixs@studio.com">agntixs@studio.com</Link>
+                                                <p>Yardıma mı ihtiyacınız var?</p>
+                                                <Link className="tp-line-white" href="mailto:info@yesilyurtinsaat.com">info@yesilyurtinsaat.com</Link>
                                             </div>
                                         </div>
-                                        <div className="ar-about-funfact-item d-flex align-items-center">
-                                            <div className="ar-about-funfact-item-icon">
-                                                <span><MessageIcon /></span>
-                                            </div>
-                                            <div className="ar-about-funfact-item-content">
-                                                <Link className="tp-line-white" href="contact.html">Start Chat</Link>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div className="ar-about-funfact-item-bottom">
-                                        <p>See our <span>Refund Policies</span> or <span>FAQ</span></p>
                                     </div>
                                 </div>
                             </div>

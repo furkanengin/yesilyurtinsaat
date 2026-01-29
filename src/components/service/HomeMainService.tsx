@@ -17,7 +17,7 @@ const HomeMainService = () => {
           </div>
         </div>
         <div className="tp-service-pin">
-          {servicesData.slice(0, 4).map((service) => {
+          {servicesData.slice(0, 5).map((service) => {
             return (
               <div key={service.id} className="tp-service-item tp-service-panel">
                 <div className="row">
@@ -41,20 +41,6 @@ const HomeMainService = () => {
                           </React.Fragment>
                         ))}
                       </p>
-                      <div className="tp-service-btn">
-                        <Link href={service.link} className="tp-btn-black btn-red-bg">
-                          <span className="tp-btn-black-filter-blur">
-                            <ButtonBlurFilter filterId={`buttonFilter${service.id + 1}`} />
-                          </span>
-                          <span className="tp-btn-black-filter d-inline-flex align-items-center"
-                            style={{ filter: `url(#buttonFilter${service.id + 1})` }}>
-                            <span className="tp-btn-black-text">Detayları Gör</span>
-                            <span className="tp-btn-black-circle">
-                              <ArrowSvg />
-                            </span>
-                          </span>
-                        </Link>
-                      </div>
                       <div className="tp-service-category">
                         {service.categories?.map((category, catIndex) => (
                           <React.Fragment key={catIndex}>
@@ -107,7 +93,6 @@ const HomeMainService = () => {
 
   );
 };
-
 
 
 export default HomeMainService;

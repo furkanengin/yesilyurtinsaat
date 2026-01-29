@@ -2,54 +2,39 @@ import Image from "next/image";
 import Link from "next/link";
 import React from "react";
 
-import contactLocation1 from "../../../public/assets/img/contact/contact-location-1.jpg";
-import contactLocation2 from "../../../public/assets/img/contact/contact-location-2.jpg";
-import contactLocation3 from "../../../public/assets/img/contact/contact-location-3.jpg";
+import contactLocation1 from "../../../public/assets/img/contact/contact-location-1.png";
+import contactLocation2 from "../../../public/assets/img/contact/contact-location-1.png";
 
 const ContactLocationArea = () => {
   const locations = [
     {
-      title: "France",
-      time: "12:00 pm GMT+2",
+      title: "Erzurum",
+      time: "09:00 - 18:00",
       img: contactLocation1,
-      addressTitle: "Base Create",
+      addressTitle: "Ana Ofis",
       address: (
         <>
-          Base Creative, 43 Appleton <br /> Lane, 3287 Hamilton
+            Şht. Onbaşı Ömer Budak Cd. <br /> No:23/B, Aziziye/Erzurum
         </>
       ),
-      mapLink: "https://www.google.com/maps",
-      phone: "(+91)76001726",
-      email: "Hello@contact.com",
+      mapLink: "<iframe src=\"https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d4706.062612415473!2d41.1915601!3d39.911510199999995!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x406e593e92a8a4cf%3A0x5a01151611ed3229!2zU2FsdHVrbHUsIMWeaHQuIE9uYmHFn8SxIMOWbWVyIEJ1ZGFrIENkIE5POjIzL0IsIDI1MDkwIEF6aXppeWUvRXJ6dXJ1bQ!5e1!3m2!1str!2str!4v1769646299010!5m2!1str!2str\" width=\"800\" height=\"600\" style=\"border:0;\" allowfullscreen=\"\" loading=\"lazy\" referrerpolicy=\"no-referrer-when-downgrade\"></iframe>",
+      phone: "(+90) 530 879 17 75",
+      email: "info@yesilyurtinsaat.com",
     },
-    {
-      title: "Germany",
-      time: "12:00 pm GMT+2",
-      img: contactLocation2,
-      addressTitle: "Base Create",
-      address: (
-        <>
-          Duesseldorfer Strasse 181 <br /> 40545 Duesseldorf <br /> Germany
-        </>
-      ),
-      mapLink: "https://www.google.com/maps",
-      phone: "(+91)76001726",
-      email: "Hello@contact.com",
-    },
-    {
-      title: "New Zealand",
-      time: "12:00 pm GMT+2",
-      img: contactLocation3,
-      addressTitle: "Base Create",
-      address: (
-        <>
-          1758 Berkeley <br /> St. Santa Monica, CA 90404
-        </>
-      ),
-      mapLink: "https://www.google.com/maps",
-      phone: "(+91)76001726",
-      email: "Hello@contact.com",
-    },
+      {
+          title: "İstanbul",
+          time: "09:00 - 18:00",
+          img: contactLocation2,
+          addressTitle: "Ana Ofis",
+          address: (
+              <>
+                  Şht. Onbaşı Ömer Budak Cd. <br /> No:23/B, Aziziye/Erzurum
+              </>
+          ),
+          mapLink: "<iframe src=\"https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d4706.062612415473!2d41.1915601!3d39.911510199999995!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x406e593e92a8a4cf%3A0x5a01151611ed3229!2zU2FsdHVrbHUsIMWeaHQuIE9uYmHFn8SxIMOWbWVyIEJ1ZGFrIENkIE5POjIzL0IsIDI1MDkwIEF6aXppeWUvRXJ6dXJ1bQ!5e1!3m2!1str!2str!4v1769646299010!5m2!1str!2str\" width=\"800\" height=\"600\" style=\"border:0;\" allowfullscreen=\"\" loading=\"lazy\" referrerpolicy=\"no-referrer-when-downgrade\"></iframe>",
+          phone: "(+90) 530 879 17 75",
+          email: "info@yesilyurtinsaat.com",
+      },
   ];
 
   return (

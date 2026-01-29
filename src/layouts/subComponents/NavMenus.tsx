@@ -43,8 +43,8 @@ export default function NavMenus() {
 
   return (
     <ul>
-      {headerMenuData.map((menu) => (
-        <li
+        {headerMenuData.slice(0, 3).map((menu) => (
+            <li
           key={menu.id}
         >
           <Link href={menu.link}>

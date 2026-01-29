@@ -31,7 +31,6 @@ const HomeMainFooter:React.FC<IHomeMainFooter> = ({bgColor, buttonCls, quikLinkC
                                         <li><Link href="#">Hakkımızda</Link></li>{" "}
                                         <li><Link href="#">BİZ KİMİZ?</Link></li>{" "}
                                         <li><Link href="#">Projeler</Link></li>{" "}
-                                        <li><Link href="#">Blog</Link></li>{" "}
                                         <li><Link href="#">BİZE Ulaşın</Link></li>
                                     </ul>
                                 </div>

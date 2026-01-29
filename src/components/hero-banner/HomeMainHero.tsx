@@ -17,7 +17,7 @@ const HomeMainHero = () => {
                     <div className="col-xl-9">
                         <div className="tp-hero-title-box">
                             <h2 className="tp-hero-title tp-char-animation">
-                                <span>temelden</span> <br />
+                                <span>temelden</span> <br/>
                                 <span><Image className="tp-hero-video d-none d-xl-inline-block"
                                     src={heroVideoImg} alt="hero-video-image" />BİR</span>gelecek
                             </h2>
@@ -45,7 +45,7 @@ const HomeMainHero = () => {
                                         <Image src={heroAvater} alt="avater-image" />
                                         <span>Ethem Yeşilyurt</span>
                                     </div>
-                                    <p>“Bir bina temeli kadar güçlüdür; bir gelecek de inancın kadar.”</p>
+                                    <p>Hadi beraber yatırımlarınızı güçlü temellere oturtalım.</p>
                                     <div className="tp-hero-link text-end">
                                         <a href="https://www.instagram.com/ethemyesilyurtt/" target="_blank" rel="noopener noreferrer">
                                             Takip Et
