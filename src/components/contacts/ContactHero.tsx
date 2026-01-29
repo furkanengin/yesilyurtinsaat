@@ -1,6 +1,6 @@
 import shapeCircle from '../../../public/assets/img/home-09/hero/funfact-circle-shape-2.png';
 import bgShape from '../../../public/assets/img/home-09/hero/funfact-bg-shape-2.png';
-import { EmailIcon, MessageIcon, PhoneIcon } from '@/svg/ContactIcons';
+import { EmailIcon, PhoneIcon } from '@/svg/ContactIcons';
 import teamBg from '../../../public/assets/img/team/team-bg.png';
 import { CareerShape } from '@/svg/HeroShape';
 import { ArrowTwenty } from '@/svg/ArrowIcons';
@@ -27,6 +27,7 @@ const ContactHero = () => {
                             <h3 className="tp-career-title fs-100 pb-30">Sorularınız mı var? <br />
                                 Bize sorun, <br />
                                 burası sizin eviniz!</h3>
+
                         </div>
                     </div>
                 </div>
@@ -66,6 +67,7 @@ const ContactHero = () => {
                                                 <Link className="tp-line-white" href="mailto:info@yesilyurtinsaat.com">info@yesilyurtinsaat.com</Link>
                                             </div>
                                         </div>
+
                                     </div>
                                 </div>
                             </div>
