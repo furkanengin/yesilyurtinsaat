@@ -8,7 +8,7 @@ import type { Metadata } from "next";
 import "swiper/css/bundle";
 import "./globals.scss";
 
-// Inter font – Supports weights from 100 to 900, including italic styles
+
 const inter = Inter({
   subsets: ["latin"],
   variable: "--font-inter",
