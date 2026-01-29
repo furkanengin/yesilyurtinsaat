@@ -38,16 +38,13 @@ const HomeMain = () => {
         }, 100);
         return () => clearTimeout(timer);
     });
-
     return (
         <>
             <div id="magic-cursor" className="cursor-white-bg">
                 <div id="ball"></div>
             </div>
-
             <BackToTop />
             <HomeMainHeader />
-
             <div id="smooth-wrapper">
                 <div id="smooth-content">
                     <main>
