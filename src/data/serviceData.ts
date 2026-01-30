@@ -66,7 +66,7 @@ const servicesData: servicesDT[] = [
     },
     {
         id: 4,
-        title: "GÖKTÜRK APARTMANI",
+        title: "GÖKTÜRK SİTESİ",
         image: service4,
         description: "Erzurum’da Yeşilyurt İnşaat tarafından inşa edilen Göktürk Apartmanı, 63 adet 1+1 daire ve 8 ticari iş yerinden oluşan, modern tasarım anlayışı ve yüksek kaliteli yapısıyla dikkat çekiyor. Konfor, güvenlik ve estetiği bir arada sunan proje, ayrıcalıklı bir yaşamın kapılarını aralıyor.",
         categories: ["AZİZİYE / ERZURUM"],

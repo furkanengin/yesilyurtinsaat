@@ -14,7 +14,7 @@ const ContactLocationArea = () => {
       addressTitle: "Ana Ofis",
       address: (
         <>
-            Şht. Onbaşı Ömer Budak Cd. <br /> No:23/B, Aziziye/Erzurum
+            Şht. Onbaşı Ömer Budak Cd. <br /> No:23/B, Aziziye / Erzurum
         </>
       ),
       mapLink: "<iframe src=\"https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d4706.062612415473!2d41.1915601!3d39.911510199999995!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x406e593e92a8a4cf%3A0x5a01151611ed3229!2zU2FsdHVrbHUsIMWeaHQuIE9uYmHFn8SxIMOWbWVyIEJ1ZGFrIENkIE5POjIzL0IsIDI1MDkwIEF6aXppeWUvRXJ6dXJ1bQ!5e1!3m2!1str!2str!4v1769646299010!5m2!1str!2str\" width=\"800\" height=\"600\" style=\"border:0;\" allowfullscreen=\"\" loading=\"lazy\" referrerpolicy=\"no-referrer-when-downgrade\"></iframe>",
@@ -28,10 +28,10 @@ const ContactLocationArea = () => {
           addressTitle: "Ana Ofis",
           address: (
               <>
-                  Şht. Onbaşı Ömer Budak Cd. <br /> No:23/B, Aziziye/Erzurum
+                  Yeni Mahalle, Parlar Sokak, <br /> No:19, Pendik / İstanbul
               </>
           ),
-          mapLink: "<iframe src=\"https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d4706.062612415473!2d41.1915601!3d39.911510199999995!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x406e593e92a8a4cf%3A0x5a01151611ed3229!2zU2FsdHVrbHUsIMWeaHQuIE9uYmHFn8SxIMOWbWVyIEJ1ZGFrIENkIE5POjIzL0IsIDI1MDkwIEF6aXppeWUvRXJ6dXJ1bQ!5e1!3m2!1str!2str!4v1769646299010!5m2!1str!2str\" width=\"800\" height=\"600\" style=\"border:0;\" allowfullscreen=\"\" loading=\"lazy\" referrerpolicy=\"no-referrer-when-downgrade\"></iframe>",
+          mapLink: "<iframe src=\"https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d4638.668772127107!2d29.224158677075145!3d40.88263922714998!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x14cac353dbb692a9%3A0xe8f5a386c70e8081!2zWWVuaSwgUGFybGFyIFNva2HEn8SxIE5vOjE5LCAzNDg5MyBQZW5kaWsvxLBzdGFuYnVs!5e1!3m2!1str!2str!4v1769813332283!5m2!1str!2str\" width=\"800\" height=\"600\" style=\"border:0;\" allowfullscreen=\"\" loading=\"lazy\" referrerpolicy=\"no-referrer-when-downgrade\"></iframe>",
           phone: "(+90) 530 879 17 75",
           email: "info@yesilyurtinsaat.com",
       },
